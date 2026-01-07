@@ -7,7 +7,7 @@ public class Palindrom {
         int result;
         int originalNum = n;
         int reverse = 0;
-        while( n != 0){
+        while( n != 0){  
             result = n % 10;
             reverse = reverse * 10 + result;
             n = n / 10;
@@ -24,7 +24,7 @@ public class Palindrom {
         return result.equals(str);
     }
 
-    // For paragraphs
+    // For paragraphs 
     public static boolean para(String s){
         String clean = s.toLowerCase().replaceAll("[^a-z0-9]","");
         int left = 0;
@@ -37,7 +37,7 @@ public class Palindrom {
         return true;
     }
 
-
+   // Driver method
     public static void main(String[] args) {
         int n = 121;
         System.out.println(isPalindrom(n));
