@@ -1,4 +1,4 @@
-package com.array;
+package com.array.string;
 
 public class ReverseString {
     public static void reverse(String str){
