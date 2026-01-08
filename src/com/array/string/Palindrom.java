@@ -17,11 +17,11 @@ public class Palindrom {
 
     // For Strings
     public static boolean check(String str){
-        String result = "";
+        StringBuilder result = new StringBuilder();
         for(int i = str.length() - 1; i >= 0; i--){
-            result = result + str.charAt(i);
+            result.append(str.charAt(i));
         }
-        return result.equals(str);
+        return result.toString().equals(str);
     }
 
     // For paragraphs
