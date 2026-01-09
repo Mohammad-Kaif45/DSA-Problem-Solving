@@ -1,6 +1,8 @@
 package com.array.string;
 
 public class LongestCommonPrefix {
+
+    // Brute force Approach
     public static String longestCommonPrefix(String[] strs){
         int n = strs.length;
         if(strs.length == 0) return "";
