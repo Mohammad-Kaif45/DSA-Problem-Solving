@@ -2,7 +2,7 @@ package com.array.string;
 
 public class MaximumSubArray {
 
-    // Brute using two loops
+    // Brute Force Approach -> Using Two Loops
     public static int maxSum(int[] arr) {
         int res = arr[0];
         // Outer loop for starting point of subarray
@@ -12,7 +12,7 @@ public class MaximumSubArray {
             for (int j = i; j < arr.length; j++) {
                 currSum = currSum + arr[j];
                 // Update res if currSum is greater than res
-                res = Math.max(res, currSum);
+                res = Math.max(res, currSum); // maximum value among res and currSum
             }
         }
         return res;
