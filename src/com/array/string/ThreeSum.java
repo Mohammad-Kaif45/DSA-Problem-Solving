@@ -17,8 +17,8 @@ public class ThreeSum {
                 }
             }
         }
-        List<List<Integer>> rersult = new ArrayList<>(set);
-        return rersult;
+        List<List<Integer>> result = new ArrayList<>(set);
+        return result;
     }
 
     // Optimal Approach
