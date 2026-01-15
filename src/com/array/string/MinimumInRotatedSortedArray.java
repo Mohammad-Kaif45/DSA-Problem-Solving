@@ -1,6 +1,8 @@
 package com.array.string;
 
 public class MinimumInRotatedSortedArray {
+
+    // Time : O(N)
     public static int findMin(int[] nums){
         int min = nums[0];
         for(int i = 1; i < nums.length; i++){
@@ -11,6 +13,7 @@ public class MinimumInRotatedSortedArray {
         return min;
     }
 
+    // Time : O(logn)
     public static int findMinimum(int[] nums){
         int left = 0, right = nums.length - 1;
 
