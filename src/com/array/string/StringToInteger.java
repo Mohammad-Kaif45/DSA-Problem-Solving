@@ -5,9 +5,8 @@ public class StringToInteger {
     // Time Complexity : O(n)
     // Space Complexity : O(1)
     public static int myAtoi(String s) {
-        int i = 0, n = s.length();
-        int sign = 1;
-        int num = 0;
+        int i = 0, n = s.length(), sign = 1, num = 0;
+
         // 1. Skip leading whitespaces
         while (i < n && s.charAt(i) == ' ') {
             i++;
