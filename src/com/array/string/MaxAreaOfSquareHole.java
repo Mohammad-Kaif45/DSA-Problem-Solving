@@ -25,9 +25,9 @@ public class MaxAreaOfSquareHole {
         return maxCount + 1;
     }
     public static void main(String[] args) {
-        int n = 2, m = 1;
-        int[] hBars = {2,3};
-        int[] vBars = {2};
+        int n = 6, m = 7;
+        int[] hBars = {2};
+        int[] vBars = {4};
         System.out.println(maxArea(n,m,hBars,vBars));
     }
 }
