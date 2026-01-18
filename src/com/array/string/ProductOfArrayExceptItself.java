@@ -3,6 +3,8 @@ package com.array.string;
 import java.util.Arrays;
 
 public class ProductOfArrayExceptItself {
+
+    // Time Complexity : O(n)
     public static int[] productOfArray(int[] nums){
         int product = 1;
         int[] ans = new int[nums.length];
