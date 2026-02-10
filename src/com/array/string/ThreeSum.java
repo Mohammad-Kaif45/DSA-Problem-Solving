@@ -22,7 +22,6 @@ public class ThreeSum {
     }
 
     // Optimal Approach
-
     public static List<List<Integer>> triplet(int[] arr) {
         int n = arr.length;
         List<List<Integer>> ans = new ArrayList<>();
