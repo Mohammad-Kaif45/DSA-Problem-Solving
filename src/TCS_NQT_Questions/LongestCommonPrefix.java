@@ -17,6 +17,8 @@ public class LongestCommonPrefix {
         }
         return first;
     }
+
+    // Main Method
     public static void main(String[] args) {
         String[] strs = {"flower","flow","flight"};
         String result = longest(strs);
