@@ -8,6 +8,6 @@ public class Conversion {
         int n = sc.nextInt();
         int bitCount = (int)(Math.log(n) / Math.log(2)) + 1;
         int mask = (1 << bitCount) - 1; // left shift of (n << m) = n * 2^m
-        System.out.println(n ^ mask); // Xor 
+        System.out.println(n ^ mask); // Xor
     }
 }
