@@ -3,6 +3,7 @@ package TCS_NQT_Questions;
 import java.util.Scanner;
 
 public class Conversion {
+    // First convert the number into binary and flip the digit and write the number
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
