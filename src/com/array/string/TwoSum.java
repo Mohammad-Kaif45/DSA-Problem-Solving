@@ -6,6 +6,7 @@ public class TwoSum {
 
     // Time Complexity -> O(n^2)
     // Space Complexity -> O(2)
+    // Brute force approach
     public static int[] twoSum(int[] nums,int target){
         int[] ans = {-1,-1};
         for(int i = 0; i < nums.length; i++){
